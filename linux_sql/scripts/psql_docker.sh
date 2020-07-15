@@ -15,7 +15,7 @@ export PGPASSWORD='password'
 if [[ $task = "create" ]];
   then
     if [[ $(docker container ls -a -f name=jrvs-psql | wc -l) -eq 2 ]]; then
-        echo "Container already exists - ERRRRRRR"
+        echo  "Container already exists - ERRRRRRR"
         exit 1
     fi
 
@@ -47,3 +47,5 @@ if [[ $task = "stop" ]]; then
     docker container stop jrvs-psql
     exit 0
 fi
+
+#END
