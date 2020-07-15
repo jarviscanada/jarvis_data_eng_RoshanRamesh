@@ -29,7 +29,7 @@ if [[ $task = "create" ]];
     sudo docker volume create pgdata
     docker run --name jrvs-psql -e POSTGRES_PASSWORD=${db_password} -e POSTGRES_USER=${db_username} -d -v pgdata:/var/lib/postgresql/data -p 5432:5432 $db_username
     exit $?
-  fi
+fi
 
 #check if container is created
 if [[ ! $(docker ps -a | grep "jrvs-psql") ]]; then
