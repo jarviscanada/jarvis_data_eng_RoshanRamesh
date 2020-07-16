@@ -1,7 +1,8 @@
 # Linux Cluster Monitoring Agent
 ## Introduction
-The Jarvis Linux Cluster Administration (LCA) team manages a Linux cluster of 10 nodes/servers which are running CentOS 7. These servers are internally connected through a switch and able to communicate through internal IPv4 addresses. The LCA team needs to record the hardware specifications of each node and monitor node resource usages (e.g. CPU/Memory) in realtime (see appendix A). The collected data should be stored in an RDBMS database. LCA team will use the data to generate some reports for future resource planning purposes (e.g. add/remove servers). This project aims to develop a MVP to help the LCA team collect/store hardware specifications and monitor server resource usage.
-##Architecture and Design
+The Jarvis Linux Cluster Administration (LCA) team manages a Linux cluster of 10 nodes/servers which are running CentOS 7. These servers are internally connected through a switch and able to communicate through internal IPv4 addresses. The LCA team needs to record the hardware specifications of each node and monitor node resource usages (e.g. CPU/Memory) in realtime. The collected data should be stored in an RDBMS database. LCA team will use the data to generate some reports for future resource planning purposes (e.g. add/remove servers). This project aims to develop a MVP to help the LCA team collect/store hardware specifications and monitor server resource usage.
+
+## Architecture and Design
 
 ![linux_SQL_arch](./assets/linux_SQL_arch.jpg)
 
