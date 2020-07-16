@@ -8,7 +8,7 @@ psql_user=$4
 psql_password=$5
 
 #Excporting to use as environment variable
-export PGPASSWORD=${psql_password}
+export PGPASSWORD=$psql_password
 
 #Saving hostname and cpu num to a variable
 lscpu_out=`lscpu`
@@ -27,6 +27,7 @@ timestamp=$(date +%F" "%T)
 insertfile="INSERT INTO host_info (hostname, cpu_number, cpu_architecture, cpu_model, cpu_mhz,L2_cache, total_mem, timestamp) VALUES ('$hostname', '$cpu_number', '$cpu_architecture', '$cpu_model', '$cpu_mhz','$l2_cache', '$total_mem', '$timestamp');"
 
 #psql connect and exec
-psql -h $psql_host -U $psql_user  -d $db_name -c "$insertfile"
+#psql -h $psql_host -U $psql_user -d $db_name -c "$insertfile"
+psql -h localhost -p 5432 -U postgres -d host_agent -c "$insertfile"
 
 exit 0

@@ -8,7 +8,7 @@ psql_user=$4
 psql_password=$5
 
 #Exporting password as environment variable
-export PGPASWORD=$psql_password
+export PGPASSWORD=$psql_password
 
 #Saving hostname and cpu num to a variable
 lscpu_out=`lscpu`
@@ -27,6 +27,7 @@ disk_available=$(echo "$(df -BM)" | awk '{print $4}' | head -6 | tail -1 | egrep
 insertfile="INSERT INTO host_usage (timestamp, host_id, memory_free, cpu_idle, cpu_kernel,disk_io, disk_available) VALUES ('$timestamp', '$host_id', '$memory_free', '$cpu_idle', '$cpu_kernel','$disk_io', '$disk_available');"
 
 #psql connect and exec
-psql -h $psql_host -U $psql_user -d $db_name -c "$insertfile"
+#psql -h $psql_host -U $psql_user -d $db_name -c "$insertfile"
+psql -h localhost -p 5432 -U postgres -d host_agent -c "$insertfile"
 
 exit 0

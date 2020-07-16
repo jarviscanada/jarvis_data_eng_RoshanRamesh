@@ -12,7 +12,7 @@ systemctl status docker || systemctl start docker
 export PGPASSWORD='password'
 
 #docker tasks - Create, error display, start and stop (code below) using if clauses
-if [[ $task = "create" ]];
+if [[ $db_task = "create" ]];
   then
     if [[ $(docker container ls -a -f name=jrvs-psql | wc -l) -eq 2 ]]; then
         echo "Container already exists - ERRRRRRR"
