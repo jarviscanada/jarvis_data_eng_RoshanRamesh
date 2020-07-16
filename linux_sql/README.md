@@ -2,6 +2,7 @@
 ## Introduction
 The Jarvis Linux Cluster Administration (LCA) team manages a Linux cluster of 10 nodes/servers which are running CentOS 7. These servers are internally connected through a switch and able to communicate through internal IPv4 addresses. The LCA team needs to record the hardware specifications of each node and monitor node resource usages (e.g. CPU/Memory) in realtime (see appendix A). The collected data should be stored in an RDBMS database. LCA team will use the data to generate some reports for future resource planning purposes (e.g. add/remove servers). This project aims to develop a MVP to help the LCA team collect/store hardware specifications and monitor server resource usage.
 ##Architecture and Design
+
 ![linux_SQL_arch](./assets/linux_SQL_arch.jpg)
 
 _Figure 1: Architecture overview for 3 nodes_
@@ -62,7 +63,7 @@ psql -h localhost -U postgres -W -f sql/ddl.sql
 ./linux_sql/scripts/host_usage.sh psql_host psql_port db_name psql_user psql_password
 ```
 
-- **crontab setup**: Setting crontab job to extract `host_usage~` data to update as required.
+- **crontab setup**: Setting crontab job to extract `host_usage` data to update as required.
 ```Bash
 #edit crontab jobs
 bash> crontab -e
