@@ -1,13 +1,12 @@
-tree
 # Linux Cluster Monitoring Agent
-##Introduction
+## Introduction
 The Jarvis Linux Cluster Administration (LCA) team manages a Linux cluster of 10 nodes/servers which are running CentOS 7. These servers are internally connected through a switch and able to communicate through internal IPv4 addresses. The LCA team needs to record the hardware specifications of each node and monitor node resource usages (e.g. CPU/Memory) in realtime (see appendix A). The collected data should be stored in an RDBMS database. LCA team will use the data to generate some reports for future resource planning purposes (e.g. add/remove servers). This project aims to develop a MVP to help the LCA team collect/store hardware specifications and monitor server resource usage.
 ##Architecture and Design
 ![linux_SQL_arch](./assets/linux_SQL_arch.jpg)
 
 _Figure 1: Architecture overview for 3 nodes_
 
-##Database & Tables
+## Database & Tables
 The database in use is "host_agent" which has two tables, named, "host_info" and "host_usage". PostgreSQL instance is used to collect and store all requried data.
 
 - `host_info`: This table is used to store the required hardware specifications.
@@ -43,7 +42,7 @@ The database in use is "host_agent" which has two tables, named, "host_info" and
   - Group nodes/servers by "cpu_number" and "total_mem".
   - Find average memory used over a 5 minute interval.
 
-##Usage
+## Usage
 - **Database and Table Initialization**: Start the docker instance. The docker instance "psql_docker.sh" will be used to start/stop instance.
 ```Bash
 #Povision and start postgreSQL instance with docker
@@ -74,6 +73,7 @@ bash> crontab -e
 #list crontab jobs
 crontab -l
 ```
-##Improvements
+## Improvements
+
 - The assumption made in the current scenario is static hardware specification. This could be improvised with a script to handle dynamic hardware specifications.
 - `host_usage` data can grow huge and cause memory depletion. Unnecessary data can be filtered.
