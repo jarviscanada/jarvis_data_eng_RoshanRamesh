@@ -1,9 +1,10 @@
 package ca.jrvs.apps.grep;
 
 import java.io.IOException;
+import java.io.File;
 import java.util.*;
 
-public class JavaGrep {
+public interface JavaGrep {
 
     /**
      * Top level search workflow
