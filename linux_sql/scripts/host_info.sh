@@ -30,4 +30,4 @@ insertfile="INSERT INTO host_info (hostname, cpu_number, cpu_architecture, cpu_m
 #psql -h $psql_host -U $psql_user -d $db_name -c "$insertfile"
 psql -h localhost -p 5432 -U postgres -d host_agent -c "$insertfile"
 
-exit 0
+exit $?
