@@ -24,7 +24,7 @@ The database in use is "host_agent" which has two tables, named, "host_info" and
 
 - `host_usage`: This table holds node/server resource usage data.
 
-  -`timestamp`: The UTC timestamp of data collection.
+  - `timestamp`: The UTC timestamp of data collection.
   - `host_id`: The id of the current server/node. This is the foreign key of the table.
   - `cpu_number`: Number of existing CPU cores.
   - `memory_free`: This is the idle memory size.
