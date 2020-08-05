@@ -7,6 +7,8 @@ import java.util.stream.*;
 import static java.util.Arrays.stream;
 
 public class LambdaStreamExcImp implements LambdaStreamExc {
+    public Double squareRootIntStream;
+
     @Override
     public Stream<String> createStrStream(String... strings) {
         return stream(strings);
