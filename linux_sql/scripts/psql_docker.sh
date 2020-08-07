@@ -12,7 +12,7 @@ systemctl status docker || systemctl start docker
 export PGPASSWORD='password'
 
 #docker tasks - Create, error display, start and stop (code below) using if clauses
-if [[ $db_task = "create" ]];
+if [[ $task = "create" ]];
   then
     if [[ $(docker container ls -a -f name=jrvs-psql | wc -l) -eq 2 ]]; then
         echo "Container already exists - ERRRRRRR"
@@ -29,7 +29,7 @@ if [[ $db_task = "create" ]];
     sudo docker volume create pgdata
     docker run --name jrvs-psql -e POSTGRES_PASSWORD=${db_password} -e POSTGRES_USER=${db_username} -d -v pgdata:/var/lib/postgresql/data -p 5432:5432 $db_username
     exit $?
-fi
+  fi
 
 #check if container is created
 if [[ ! $(docker ps -a | grep "jrvs-psql") ]]; then
@@ -37,8 +37,7 @@ if [[ ! $(docker ps -a | grep "jrvs-psql") ]]; then
     exit 1
 fi
 
-#START and STOP container
-if [[ $task = "start" ]]; then
+#START and STOP containeif [[ $task = "start" ]]; then
     docker container stop jrvs-psql
     exit 0
 fi
@@ -48,4 +47,3 @@ if [[ $task = "stop" ]]; then
     exit 0
 fi
 
-#END
