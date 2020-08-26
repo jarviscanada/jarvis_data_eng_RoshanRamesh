@@ -4,7 +4,7 @@ Java Database Connectivity (JDBC) is one of the most fundamental and frequently 
 
 # ER Diagram
 
-![my image](file:///home/centos/dev/jarvis_data_eng_RoshanRamesh/core_java/jdbc/assets/JDBC-ER.png)
+![my image](./assets/JDBC-ER.png)
 
 # Design Patterns
 
