@@ -24,9 +24,9 @@ This is an implementation of the java app which can post/show/delete Twitter pos
 - Delete tweet: `twitterCLIApp delete "tweetId1,tweetId2,tweetId3..."`
 
 # Design
-##UML Diagram
+## UML Diagram
 
-![my image](file:///home/centos/dev/jarvis_data_eng_RoshanRamesh/core_java/twitter/assets/UMLDiagram.png)
+![my image](./assets/UMLDiagram.png)
 
 - TwitterHttpHelper: Uses the interface HttpHelper to establish connections between the Twitter API and Java application. It uses the given URI to execute HTTP and authorizes the required HTTP request.
 - TwitterDao: Calls TwitterHttpHelper and uses TwitterDAO to construct URIs from the tweet object.
