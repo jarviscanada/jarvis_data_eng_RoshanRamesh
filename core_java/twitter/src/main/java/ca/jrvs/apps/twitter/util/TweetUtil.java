@@ -11,7 +11,6 @@ public class TweetUtil {
         float[] longLat = {-44, 80};
         Coordinates coordinates = new Coordinates(longLat, "Point");
         return new Tweet(text, coordinates);
-        //return new Tweet();
     }
 
 }
