@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b540969c-e182-455a-8d9c-6d89d0b16b76" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ca/jrvs/apps/practice/LambdaStreamExcImpTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1fHjpSaMMP9HnVhoiAP91TGycrT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ca.jrvs.apps.practice" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.LambdaStreamExcImpTest.flatNestedInt">
+    <configuration name="LambdaStreamExcImpTest.flatNestedInt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="grep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.jrvs.apps.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ca.jrvs.apps.practice" />
+      <option name="MAIN_CLASS_NAME" value="ca.jrvs.apps.practice.LambdaStreamExcImpTest" />
+      <option name="METHOD_NAME" value="flatNestedInt" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LambdaStreamExcImpTest.getLambdaPrinter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="grep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.jrvs.apps.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ca.jrvs.apps.practice" />
+      <option name="MAIN_CLASS_NAME" value="ca.jrvs.apps.practice.LambdaStreamExcImpTest" />
+      <option name="METHOD_NAME" value="getLambdaPrinter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LambdaStreamExcImpTest.getOdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="grep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.jrvs.apps.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ca.jrvs.apps.practice" />
+      <option name="MAIN_CLASS_NAME" value="ca.jrvs.apps.practice.LambdaStreamExcImpTest" />
+      <option name="METHOD_NAME" value="getOdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LambdaStreamExcImpTest.printMessages" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="grep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.jrvs.apps.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ca.jrvs.apps.practice" />
+      <option name="MAIN_CLASS_NAME" value="ca.jrvs.apps.practice.LambdaStreamExcImpTest" />
+      <option name="METHOD_NAME" value="printMessages" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LambdaStreamExcImpTest.printOdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="grep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.jrvs.apps.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ca.jrvs.apps.practice" />
+      <option name="MAIN_CLASS_NAME" value="ca.jrvs.apps.practice.LambdaStreamExcImpTest" />
+      <option name="METHOD_NAME" value="printOdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.LambdaStreamExcImpTest.getOdd" />
+      <item itemvalue="JUnit.LambdaStreamExcImpTest.getLambdaPrinter" />
+      <item itemvalue="JUnit.LambdaStreamExcImpTest.printMessages" />
+      <item itemvalue="JUnit.LambdaStreamExcImpTest.printOdd" />
+      <item itemvalue="JUnit.LambdaStreamExcImpTest.flatNestedInt" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.LambdaStreamExcImpTest.flatNestedInt" />
+        <item itemvalue="JUnit.LambdaStreamExcImpTest.printOdd" />
+        <item itemvalue="JUnit.LambdaStreamExcImpTest.printMessages" />
+        <item itemvalue="JUnit.LambdaStreamExcImpTest.getLambdaPrinter" />
+        <item itemvalue="JUnit.LambdaStreamExcImpTest.getOdd" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b540969c-e182-455a-8d9c-6d89d0b16b76" name="Default Changelist" comment="" />
+      <created>1595882094980</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595882094980</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="121" y="215" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596206780658">
+      <screen x="0" y="31" width="1280" height="944" />
+    </state>
+    <state x="121" y="215" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.31.1280.944@0.31.1280.944" timestamp="1596206780658" />
+    <state x="471" y="244" width="380" height="628" key="#com.intellij.ide.util.MemberChooser" timestamp="1596469103481">
+      <screen x="0" y="31" width="1280" height="944" />
+    </state>
+    <state x="471" y="244" width="380" height="628" key="#com.intellij.ide.util.MemberChooser/0.31.1280.944@0.31.1280.944" timestamp="1596469103481" />
+    <state width="1212" height="229" key="GridCell.Tab.0.bottom" timestamp="1596664395064">
+      <screen x="0" y="31" width="1280" height="944" />
+    </state>
+    <state width="1212" height="229" key="GridCell.Tab.0.bottom/0.31.1280.944@0.31.1280.944" timestamp="1596664395064" />
+    <state width="1212" height="229" key="GridCell.Tab.0.center" timestamp="1596664395063">
+      <screen x="0" y="31" width="1280" height="944" />
+    </state>
+    <state width="1212" height="229" key="GridCell.Tab.0.center/0.31.1280.944@0.31.1280.944" timestamp="1596664395063" />
+    <state width="1212" height="229" key="GridCell.Tab.0.left" timestamp="1596664395063">
+      <screen x="0" y="31" width="1280" height="944" />
+    </state>
+    <state width="1212" height="229" key="GridCell.Tab.0.left/0.31.1280.944@0.31.1280.944" timestamp="1596664395063" />
+    <state width="1212" height="229" key="GridCell.Tab.0.right" timestamp="1596664395064">
+      <screen x="0" y="31" width="1280" height="944" />
+    </state>
+    <state width="1212" height="229" key="GridCell.Tab.0.right/0.31.1280.944@0.31.1280.944" timestamp="1596664395064" />
+    <state width="1212" height="284" key="GridCell.Tab.1.bottom" timestamp="1596654008843">
+      <screen x="0" y="31" width="1280" height="944" />
+    </state>
+    <state width="1212" height="284" key="GridCell.Tab.1.bottom/0.31.1280.944@0.31.1280.944" timestamp="1596654008843" />
+    <state width="1212" height="284" key="GridCell.Tab.1.center" timestamp="1596654008843">
+      <screen x="0" y="31" width="1280" height="944" />
+    </state>
+    <state width="1212" height="284" key="GridCell.Tab.1.center/0.31.1280.944@0.31.1280.944" timestamp="1596654008843" />
+    <state width="1212" height="284" key="GridCell.Tab.1.left" timestamp="1596654008843">
+      <screen x="0" y="31" width="1280" height="944" />
+    </state>
+    <state width="1212" height="284" key="GridCell.Tab.1.left/0.31.1280.944@0.31.1280.944" timestamp="1596654008843" />
+    <state width="1212" height="284" key="GridCell.Tab.1.right" timestamp="1596654008843">
+      <screen x="0" y="31" width="1280" height="944" />
+    </state>
+    <state width="1212" height="284" key="GridCell.Tab.1.right/0.31.1280.944@0.31.1280.944" timestamp="1596654008843" />
+    <state x="196" y="215" width="930" height="686" key="Maven.ArtifactSearchDialog" timestamp="1596468329128">
+      <screen x="0" y="31" width="1280" height="944" />
+    </state>
+    <state x="196" y="215" width="930" height="686" key="Maven.ArtifactSearchDialog/0.31.1280.944@0.31.1280.944" timestamp="1596468329128" />
+    <state x="430" y="219" width="462" height="678" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1596572660459">
+      <screen x="0" y="31" width="1280" height="944" />
+    </state>
+    <state x="430" y="219" width="462" height="678" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.31.1280.944@0.31.1280.944" timestamp="1596572660459" />
+    <state x="326" y="296" width="672" height="678" key="search.everywhere.popup" timestamp="1596644854284">
+      <screen x="0" y="31" width="1280" height="944" />
+    </state>
+    <state x="326" y="296" width="672" height="678" key="search.everywhere.popup/0.31.1280.944@0.31.1280.944" timestamp="1596644854284" />
+  </component>
+</project>
