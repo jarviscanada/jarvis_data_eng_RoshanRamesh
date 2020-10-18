@@ -8,7 +8,7 @@ Table of contents:
 - Improvements
 
 # Introduction
-The Springboot trading application is a REST API application simulating an online stock trading platform. The application does CRUD operations pertaining to quotes, security orders, accounts and traders. Users can use the IEX cloud as a datasource and store data in the PSQL database. The application uses MVC architecture along with the Spring framework deployed using Docker containers.
+The Springboot trading application is a REST API application simulating an online stock trading platform. The application does CRUD operations on quotes, security orders, accounts, and traders. Users can use the IEX cloud as a data-source and store data in the PSQL database. The application uses MVC architecture along with the Spring framework deployed using Docker containers.
 
 ## Quick Start
 Prequiresites: CentOS7 and Docker version 17.05 or higher.
@@ -77,11 +77,11 @@ http://localhost:5000/swagger-ui.html
 ## Architecture
 ![my image](./assets/spring.png)
 
-- **Controller Layer** - This layer is responsible to handle te HTTP requests along with logic and application flow management. The Web Servlet maps each request to the corresponding service class. Note that the controller methods return the response as a JSON object instead of HTML.
-- **Service Layer** - This layer handles all business logic. It validates input, resources and performs the associated operations. The returned data is passed to the DAO layer for further processing.
-- **DAO Layer** - This layer interacts with data models, persists and retrieves data from the PostgreSQL source. This includes fetching data and saving data to database and IEX Cloud.
+- **Controller Layer** - This layer is responsible to handle the HTTP requests along with logic and application flow management. The Web Servlet maps each request to the corresponding service class. Note that the controller methods return the response as a JSON object instead of HTML.
+- **Service Layer** - This layer handles all business logic. It validates input, resources, and performs the associated operations. The returned data is passed to the DAO layer for further processing.
+- **DAO Layer** - This layer interacts with data models, persists and, retrieves data from the PostgreSQL source. This includes fetching data and saving data to the database and IEX Cloud.
 - **Springboot/Tomcat** - Springboot has Tomcat server embedded which makes getting and setting up HTTP connections possible. Springboot is used to handle dependency injection for this application.
-- **PostgreSQL** - This persists application data using the PSQL database. The information regarding stock exchanges are fetched from IEX Cloud and stored in the PSQL database under the corresponding tables.
+- **PostgreSQL** - This persists application data using the PSQL database. The information regarding stock exchanges is fetched from IEX Cloud and stored in the PSQL database under the corresponding tables.
 
 ## REST API Usage
 ### Swagger
@@ -109,7 +109,7 @@ This is responsible in handling market orders for specified securities.
 
 ## Docker Deployment
 ![my image](./assets/dockerspring.jpg)
-The Trading REST App can be dockerized for a more convenient deployement. For this, two docker images are used by this application i.e., trading-psql and trading-app. Trading-psql is built by pulling postgres. The image also contains all necessary database and tables ready to be consumed by the trading-app. Trading-app is build by pulling Openjdk and maven images from Docker Hub. The container will compile and package the source code before starting the Java app. The trading-net (network) is created to make this application run by providing a communication link between containers.
+The Trading REST App can be dockerized for a more convenient deployment. For this, two docker images are used by this application i.e., trading-psql and trading-app. Trading-psql is built by pulling postgres. The image also contains all the necessary database and tables ready to be consumed by the trading-app. Trading-app is built by pulling Openjdk and maven images from Docker Hub. The container will compile and package the source code before starting the Java app. The trading-net (network) is created to make this application run by providing a communication link between containers.
 
 ## Improvements
 - Addition of Dashboard controller.
