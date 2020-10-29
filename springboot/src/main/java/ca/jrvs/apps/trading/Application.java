@@ -25,9 +25,6 @@ private String[] initDailyList;
 @Autowired
 private QuoteService quoteService;
 
-@Autowired
-//private TraderAccountService traderAccountService;
-
 public static void main(String[] args) throws Exception {
         SpringApplication app = new SpringApplication(Application.class);
         app.run(args);
