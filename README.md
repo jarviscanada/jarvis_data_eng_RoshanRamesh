@@ -4,28 +4,30 @@ Experienced recent Electrical Engineering graduate with a knack for creative Pro
 
 ## Skills
 
-**Proficient:** Java, C, ARM Assembly, Linux/Bash, SQL, Matlab, Wireshark & Simulink, P-Spice/Labview/Optiwave/NEC2/GO-3D, Agile/Scrum, Git
+**Proficient:** Java/Lambda & Stream API, Linux/Bash, SQL, Matlab, Wireshark & Simulink, Agile/Scrum, Git
 
-**Competent:** RDBMS, Springboot, REST APIs, Python, C++
+**Competent:** RDBMS, Springboot, Mockito/Junit, REST APIs, Python, C++/C, Computer Networking
 
-**Familiar:** Computer Networking, Google Cloud Platform, Visual Studios, VHDL, HTML
+**Familiar:** Google Cloud Platform, Visual Studios, VHDL, ARM Assembly, Machine Learning, Spark & Hadoop, HTML
 
 ## Jarvis Projects
 
 Project source code: [https://github.com/jarviscanada/jarvis_data_eng_demo](https://github.com/jarviscanada/jarvis_data_eng_demo)
 
 
-**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/linux_sql)]: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_RoshanRamesh/tree/master/linux_sql)]: Developed a real time cluster monitoring bash agent that collects and records hardware speciications and node usage information(CPU/memory). PostgreSQL database was used to store information of all nodes, provisioned by docker containers. Cronjob was used for automatic resource usage collection and SQL queries were written to account for business questions.
 
-**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/core_java)]:
+**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_RoshanRamesh/tree/master/core_java)]:
       
-  - Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-  - JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-  - Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
+  - Twitter App: Implemented a Java8 based TwitterCLI application that interacts via REST API using HTTP requests. The application helps users perform CRUD operations on Twitter posts. Implementation made possible by Springboot along with Junit/Mockito testing libraries.
+  - JDBC App: Developed JDBC based application which bridges RDBMS and the Java application. Users can connect to PSQL database to perform CRUD operations using the DAO pattern.
+  - Grep App: Designed Java 8 Stream APIs with lambda functions that uses pattern matching to search recursively through files in a directory and outputs the matched lines into a new file.
 
-**Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/springboot)]: Not Started
+**Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_RoshanRamesh/tree/master/springboot)]: Developed a three-tier Springboot application based on REST API, using Java 8 which simulates an online stock trading platform. The trading platform used IEX cloud as datasource and PSQL database to persist data. Spring DAO was used to handle data access in PSQL. Junit and Mockito were used for testing/integration along with docker to dockerize the final application.
 
 **Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/hadoop)]: Not Started
+
+**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master)]: Designed and implemented a PoC using Python, Jupyter Notebook, Panda Dataframe and Numpy to solve business problems for a sales company. Results/solutions were displayed using tables and plots along with RFM segmentation on customers based on interactions and sales revenues.
 
 **Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/spark)]: Not Started
 
@@ -33,30 +35,43 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_demo](http
 
 
 ## Highlighted Projects
-**Web app for resturant** [[GitHub](https://github.com/jarviscanada/jarvis_profile_builder)]: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+**Photonics (Capstone)**: Directed Laser Energy propulsion Team leader - Designed and implemented a project build of a Yb-DCFA laser Amplifier to augmenting 10mW input to 1W output. McGill Interstellar experimental flight in collaboration with UCSB (Breakthrough Starshot).
 
-**Machine Learning**: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+**Network Programming and DNS**: Implemented a domain name system(DNS) client using Java sockets for a specified existing network protocol along with TCP/IP and Link Layer analysis. The Java sockets can be invoked through cmd line(STDIN) to send queries to server using UDP and return response to display using STDOUT.
+
+**Fault Tolerance**: Designed a communication network using Python to meet a reliability goal and to maximize reliability for a given cost constraint. The program takes a text file which defines the parameters as input.
+
+**Robotics**: Designed and constructed an autonomous robot to compete in a 1-1 version of capture the flag. The programming of the robot was done using Java LeJos plugins, algorithm based design and finite state machines. As one of the winning teams our robot received parameters from the game controller, localized itself on the grid, navigated, traversed the zip line using a 3D printed chassis, located and captured enemy flag and returned back to starting point.
+
+**Ticket Reservation System/Web page traversal/Sudoku solver**: Designed and implemented an airline ticket reservation system using C++ and OOP methodology. - Designed and implemented a Web page traversal program and a Sudoku solver using algorithm based design.
 
 
 ## Professional Experiences
 
-**Software Developer, Jarvis (2020-present)**: Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.
+**Associate Data Engineer, Jarvis (2020-present)**: Underwent the transition from my Electrical background to software. Acquired technical acumen for Data Engineering through their rigorous training program. Mastered the Agile methodology and worked on Big Data concepts/projects including Java, Spring, Cloud, Python data analytics, Hadoop, Spark, Linux and RDBMS.
 
-**Tutor, XYZ Company (2019)**: Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.
+**Junior Electro-Optical Engineer, Reflex Photonics (2019)**: Involved in research and design aid for 5G, 10G, 12G and 28G rugged, High-speed optical interconnects. More key tasks includes Tranceiver housing and spider-board analysis/ troubleshooting and Noise analysis of optical tranceivers along with extensive testing of critical product lines. Extensive use of Labview GUI and Python scripting to automate data-logger/temperature test station.
 
 
 ## Education
-**XYZ university (2012-2016)**, Bachelor of Applied Sciences, Electrical and Computer Engineering
-- Scholarship
-- GPA: 3.8/4.0
-
-**XYZ university (2016-2018)**, Master of Engineering, Electrical and Computer Engineering
+**McGill University (2015-2020)**, Bachelor of Engineering, Electrical Engineering
+- James McGill Entrance Scholarship
 
 
 ## Miscellaneous
-- Udacity Machine Learning (2019)
-- Dean's List (2015, 2016): Ut enim ad minim veniam
-- Winner
-- Basketball player
-- Competitive gaming
-- Volunteer, ABC Food bank: Ut enim ad minim veniam
+- Student Peer Support Network - Administered safety of freshmen along with mentoring and emergency response
+- National Cadet Corps (India) - Contingent Leader
+- Communitas - Held open doors and workshop based rehabilitation for ex-convicts
+- English Teacher - Volunteered for 3 months of English teaching in a remote underprivileged School through an Indian NGO
+- English - First Language
+- French - DELF A2 certified
+- Hindi/Urdu - Native proficiency
+- Tamil - Native Proficiency
+- Malayalam - Native Proficiency
+- Bengali - Intermediate proficiency
+- Sanskrit(Classical) - Beginner certified
+- Rifle Shooting
+- Boxing - Orthodox
+- Horseback Riding
+- Freelance Photography
+- Natural/Chemical fragrance composing using distillates/organic chemical compounds
