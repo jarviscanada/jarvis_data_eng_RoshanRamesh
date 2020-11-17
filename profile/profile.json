@@ -2,59 +2,66 @@
   "education": [
     {
       "awards_achievements": [
-        "Scholarship",
-        "GPA: 3.8/4.0"
+        "James McGill Entrance Scholarship"
       ],
-      "degree": "Bachelor of Applied Sciences",
-      "department": "Electrical and Computer Engineering",
-      "duration": "2012-2016",
-      "school_name": "XYZ university"
-    },
-    {
-      "awards_achievements": null,
-      "degree": "Master of Engineering",
-      "department": "Electrical and Computer Engineering",
-      "duration": "2016-2018",
-      "school_name": "XYZ university"
+      "degree": "Bachelor of Engineering",
+      "department": "Electrical Engineering",
+      "duration": "2015-2020",
+      "school_name": "McGill University"
     }
   ],
   "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_demo",
   "highlighted_projects": [
     {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
-      "git_url": "https://github.com/jarviscanada/jarvis_profile_builder",
-      "name": "Web app for resturant"
+      "description": "Directed Laser Energy propulsion Team leader - Designed and implemented a project build of a Yb-DCFA laser Amplifier to augmenting 10mW input to 1W output. McGill Interstellar experimental flight in collaboration with UCSB (Breakthrough Starshot).",
+      "name": "Photonics (Capstone)"
     },
     {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
-      "git_url": null,
-      "name": "Machine Learning"
+      "description": "Implemented a domain name system(DNS) client using Java sockets for a specified existing network protocol along with TCP/IP and Link Layer analysis. The Java sockets can be invoked through the cmd line(STDIN) to send queries to the server using UDP and return the response to display using STDOUT.",
+      "name": "Network Programming and DNS"
+    },
+    {
+      "description": "Designed a communication network using Python to meet a reliability goal and to maximize reliability for a given cost constraint. The program takes a text file that defines the parameters as input.",
+      "name": "Fault Tolerance"
+    },
+    {
+      "description": "Designed and constructed an autonomous robot to compete in a 1-1 version of capture the flag. The programming of the robot was done using Java LeJos plugins, algorithm-based design, and finite state machines. As one of the winning teams our robot received parameters from the game controller, localized itself on the grid, navigated, traversed the zip line using a 3D printed chassis, located and captured the enemy flag, and returned to the starting point.",
+      "name": "Robotics"
+    },
+    {
+      "description": "Designed and implemented an airline ticket reservation system using C++ and OOP methodology. Designed and implemented a Web page traversal program and a Sudoku solver using algorithm-based design.",
+      "name": "Ticket Reservation System/Web page traversal/Sudoku solver"
     }
   ],
   "jarvis_projects": [
     {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
-      "git_url": "/linux_sql",
+      "description": "Developed a real time cluster monitoring bash agent that collects and records hardware specifications and node usage information(CPU/memory). PostgreSQL database was used to store information of all nodes, provisioned by docker containers. Cronjob was used for automatic resource usage collection and SQL queries were written to account for business questions.",
+      "git_url": "https://github.com/jarviscanada/jarvis_data_eng_RoshanRamesh/tree/master/linux_sql",
       "name": "Cluster Monitor"
     },
     {
       "description": [
-        "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
-        "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
-        "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+        "Twitter App: Implemented a Java8 based TwitterCLI application that interacts via REST API using HTTP requests. The application helps users perform CRUD operations on Twitter posts. Implementation made possible by Springboot along with Junit/Mockito testing libraries.",
+        "JDBC App: Developed JDBC based application which bridges RDBMS and the Java application. Users can connect to PSQL database to perform CRUD operations using the DAO pattern.",
+        "Grep App: Designed Java 8 Stream APIs with lambda functions that uses pattern matching to search recursively through files in a directory and outputs the matched lines into a new file."
       ],
-      "git_url": "/core_java",
+      "git_url": "https://github.com/jarviscanada/jarvis_data_eng_RoshanRamesh/tree/master/core_java",
       "name": "Core Java Apps"
     },
     {
-      "description": "",
-      "git_url": "/springboot",
+      "description": "Developed a three-tier Springboot application based on REST API, using Java 8 which simulates an online stock trading platform. The trading platform used IEX cloud as datasource and PSQL database to persist data. Spring DAO was used to handle data access in PSQL. Junit and Mockito were used for testing/integration along with docker to dockerize the final application.",
+      "git_url": "https://github.com/jarviscanada/jarvis_data_eng_RoshanRamesh/tree/master/springboot",
       "name": "Springboot App"
     },
     {
       "description": "",
       "git_url": "/hadoop",
       "name": "Hadoop"
+    },
+    {
+      "description": "Designed and implemented a PoC using Python, Jupyter Notebook, Panda Dataframe and Numpy to solve business problems for a sales company. Results/solutions were displayed using tables and plots along with RFM segmentation on customers based on interactions and sales revenues.",
+      "git_url": "",
+      "name": "Python Data Analytics"
     },
     {
       "description": "",
@@ -71,64 +78,69 @@
   "others": [
     {
       "bullets": [
-        "Udacity Machine Learning (2019)"
+        "Student Peer Support Network - Administered safety of freshmen along with mentoring and emergency response",
+        "National Cadet Corps (India) - Contingent Leader",
+        "Communitas - Held open doors and workshop based rehabilitation for ex-convicts",
+        "English Teacher - Volunteered for 3 months of English teaching in a remote underprivileged School through an Indian NGO"
       ],
-      "title": "Certificates"
+      "title": "Leadership/Social Work"
     },
     {
       "bullets": [
-        "Dean's List (2015, 2016): Ut enim ad minim veniam",
-        "Winner"
-      ],
-      "title": "Awards"
-    },
-    {
-      "bullets": [
-        "Basketball player",
-        "Competitive gaming",
-        "Volunteer, ABC Food bank: Ut enim ad minim veniam"
+        "Rifle Shooting",
+        "Boxing - Orthodox",
+        "Horseback Riding",
+        "Freelance Photography",
+        "Natural/Chemical fragrance composing using distillates/organic chemical compounds"
       ],
       "title": "Activities/Hobbies"
+    },
+    {
+      "bullets": [
+        "Languages: English - French - Hindi/Urdu - Tamil - Malayalam - Bengali - Sanskrit(Classical) Beginner certified"
+      ],
+      "title": "Languages"
     }
   ],
   "professional_experience": [
     {
       "company": "Jarvis",
-      "description": "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.",
+      "description": "Underwent the transition from my Electrical background to software. Acquired technical acumen for Data Engineering through their rigorous training program. Mastered the Agile methodology and worked on Big Data concepts/projects including Java, Spring, Cloud, Python data analytics, Hadoop, Spark, Linux and RDBMS.",
       "duration": "2020-present",
-      "title": "Software Developer"
+      "title": "Associate Data Engineer"
     },
     {
-      "company": "XYZ Company",
-      "description": "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.",
+      "company": "Reflex Photonics",
+      "description": "Involved in research and design aid for 5G, 10G, 12G and 28G rugged, High-speed optical interconnects. More key tasks include Tranceiver housing and spider-board analysis/ troubleshooting and Noise analysis of optical tranceivers along with extensive testing of critical product lines. Extensive use of Labview GUI and Python scripting to automate data-logger/temperature test station.",
       "duration": "2019",
-      "title": "Tutor"
+      "title": "Junior Electro-Optical Engineer"
     }
   ],
   "skills": {
     "competent": [
       "RDBMS",
       "Springboot",
+      "Mockito/Junit",
       "REST APIs",
       "Python",
-      "C++"
+      "C++/C",
+      "Computer Networking"
     ],
     "familiar": [
-      "Computer Networking",
       "Google Cloud Platform",
       "Visual Studios",
       "VHDL",
+      "ARM Assembly",
+      "Machine Learning",
+      "Spark \u0026 Hadoop",
       "HTML"
     ],
     "proficient": [
-      "Java",
-      "C",
-      "ARM Assembly",
+      "Java/Lambda \u0026 Stream API",
       "Linux/Bash",
       "SQL",
       "Matlab",
       "Wireshark \u0026 Simulink",
-      "P-Spice/Labview/Optiwave/NEC2/GO-3D",
       "Agile/Scrum",
       "Git"
     ]
