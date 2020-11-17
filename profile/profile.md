@@ -4,30 +4,30 @@ Experienced recent Electrical Engineering graduate with a knack for creative Pro
 
 ## Skills
 
-**Proficient:** Java/Lambda & Stream API, Linux/Bash, SQL, Matlab, Wireshark & Simulink, Agile/Scrum, Git
+**Proficient:** Core Java, Springboot, Python, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git, Matlab, Wireshark & Simulink
 
-**Competent:** RDBMS, Springboot, Mockito/Junit, REST APIs, Python, C++/C, Computer Networking
+**Competent:** Mockito/Junit, REST APIs, Spark & Hadoop, C++/C, Computer Networking
 
-**Familiar:** Google Cloud Platform, Visual Studios, VHDL, ARM Assembly, Machine Learning, Spark & Hadoop, HTML
+**Familiar:** Google Cloud Platform, Visual Studios, VHDL, ARM Assembly, Machine Learning, HTML
 
 ## Jarvis Projects
 
 Project source code: [https://github.com/jarviscanada/jarvis_data_eng_demo](https://github.com/jarviscanada/jarvis_data_eng_demo)
 
 
-**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_RoshanRamesh/tree/master/linux_sql)]: Developed a real time cluster monitoring bash agent that collects and records hardware specifications and node usage information(CPU/memory). PostgreSQL database was used to store information of all nodes, provisioned by docker containers. Cronjob was used for automatic resource usage collection and SQL queries were written to account for business questions.
+**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_RoshanRamesh/tree/master/linux_sql)]: Developed a real time cluster monitoring bash agent with bash scripts and SQL that collects and records hardware specifications and node usage information(CPU/memory). PostgreSQL database was used to store information of all nodes, contained in a docker instance for future references. Cronjob was used for automatic resource usage collection. The Linux cluster administration team's business questions such as CPU/Memory usage were answered using SQL queries in order to to be used in future resource planning.
 
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_RoshanRamesh/tree/master/core_java)]:
       
-  - Twitter App: Implemented a Java8 based TwitterCLI application that interacts via REST API using HTTP requests. The application helps users perform CRUD operations on Twitter posts. Implementation made possible by Springboot along with Junit/Mockito testing libraries.
-  - JDBC App: Developed JDBC based application which bridges RDBMS and the Java application. Users can connect to PSQL database to perform CRUD operations using the DAO pattern.
-  - Grep App: Designed Java 8 Stream APIs with lambda functions that uses pattern matching to search recursively through files in a directory and outputs the matched lines into a new file.
+  - Twitter App: Implemented a Java8 based TwitterCLI application that interacts via REST API using HTTP requests. The application helps users perform CRUD operations on Twitter posts and creation of tweet with a geotag which has a JSON format output. Implementation made possible by Spring framework, MVC architecture along with Junit/Mockito testing libraries.
+  - JDBC App: Developed a JDBC based application which bridges RDBMS and the Java application. Users can connect to PSQL database to perform CRUD operations using the DAO pattern. JDBC is dockerized using the PostgreSQL instance to make CRUD (Create, Read, Update, Delete) operation possible.
+  - Grep App: Designed Java 8 Stream APIs with lambda expressions that uses pattern matching to search recursively through files in a directory and outputs the matched lines into a new file.
 
-**Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_RoshanRamesh/tree/master/springboot)]: Developed a three-tier Springboot application based on REST API, using Java 8 which simulates an online stock trading platform. The trading platform used IEX cloud as datasource and PSQL database to persist data. Spring DAO was used to handle data access in PSQL. Junit and Mockito were used for testing/integration along with docker to dockerize the final application.
+**Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_RoshanRamesh/tree/master/springboot)]: Developed a three-tier REST API application using Springboot which simulates an online stock trading platform. The trading platform features a 3 layer microservice architecture, managed by maven, uses Tomcat web-servelet, IEX cloud as datasource and PSQL database to persist data. Spring DAO was used to handle data access in PSQL. Junit and Mockito were used for testing/integration. For convenient deployment, the application was dockerized through two containers i.e., one for PSQL server and one to start application.
 
 **Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/hadoop)]: Not Started
 
-**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master)]: Designed and implemented a PoC using Python, Jupyter Notebook, Panda Dataframe and Numpy to solve business problems for a sales company. Results/solutions were displayed using tables and plots along with RFM segmentation on customers based on interactions and sales revenues.
+**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master)]:  ((IN PROGRESS - to be edited)) Designed and implemented a PoC using Python, Jupyter Notebook, Panda Dataframe and Numpy to segment the clients in order to design targeted marketing campaigns. Results/solutions were displayed using tables and plots along with RFM segmentation on customers based on interactions and sales revenues.
 
 **Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/spark)]: Not Started
 

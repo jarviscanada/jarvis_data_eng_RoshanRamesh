@@ -35,21 +35,21 @@
   ],
   "jarvis_projects": [
     {
-      "description": "Developed a real time cluster monitoring bash agent that collects and records hardware specifications and node usage information(CPU/memory). PostgreSQL database was used to store information of all nodes, provisioned by docker containers. Cronjob was used for automatic resource usage collection and SQL queries were written to account for business questions.",
+      "description": "Developed a real time cluster monitoring bash agent with bash scripts and SQL that collects and records hardware specifications and node usage information(CPU/memory). PostgreSQL database was used to store information of all nodes, contained in a docker instance for future references. Cronjob was used for automatic resource usage collection. The Linux cluster administration team's business questions such as CPU/Memory usage were answered using SQL queries in order to to be used in future resource planning.",
       "git_url": "https://github.com/jarviscanada/jarvis_data_eng_RoshanRamesh/tree/master/linux_sql",
       "name": "Cluster Monitor"
     },
     {
       "description": [
-        "Twitter App: Implemented a Java8 based TwitterCLI application that interacts via REST API using HTTP requests. The application helps users perform CRUD operations on Twitter posts. Implementation made possible by Springboot along with Junit/Mockito testing libraries.",
-        "JDBC App: Developed JDBC based application which bridges RDBMS and the Java application. Users can connect to PSQL database to perform CRUD operations using the DAO pattern.",
-        "Grep App: Designed Java 8 Stream APIs with lambda functions that uses pattern matching to search recursively through files in a directory and outputs the matched lines into a new file."
+        "Twitter App: Implemented a Java8 based TwitterCLI application that interacts via REST API using HTTP requests. The application helps users perform CRUD operations on Twitter posts and creation of tweet with a geotag which has a JSON format output. Implementation made possible by Spring framework, MVC architecture along with Junit/Mockito testing libraries.",
+        "JDBC App: Developed a JDBC based application which bridges RDBMS and the Java application. Users can connect to PSQL database to perform CRUD operations using the DAO pattern. JDBC is dockerized using the PostgreSQL instance to make CRUD (Create, Read, Update, Delete) operation possible.",
+        "Grep App: Designed Java 8 Stream APIs with lambda expressions that uses pattern matching to search recursively through files in a directory and outputs the matched lines into a new file."
       ],
       "git_url": "https://github.com/jarviscanada/jarvis_data_eng_RoshanRamesh/tree/master/core_java",
       "name": "Core Java Apps"
     },
     {
-      "description": "Developed a three-tier Springboot application based on REST API, using Java 8 which simulates an online stock trading platform. The trading platform used IEX cloud as datasource and PSQL database to persist data. Spring DAO was used to handle data access in PSQL. Junit and Mockito were used for testing/integration along with docker to dockerize the final application.",
+      "description": "Developed a three-tier REST API application using Springboot which simulates an online stock trading platform. The trading platform features a 3 layer microservice architecture, managed by maven, uses Tomcat web-servelet, IEX cloud as datasource and PSQL database to persist data. Spring DAO was used to handle data access in PSQL. Junit and Mockito were used for testing/integration. For convenient deployment, the application was dockerized through two containers i.e., one for PSQL server and one to start application.",
       "git_url": "https://github.com/jarviscanada/jarvis_data_eng_RoshanRamesh/tree/master/springboot",
       "name": "Springboot App"
     },
@@ -59,7 +59,7 @@
       "name": "Hadoop"
     },
     {
-      "description": "Designed and implemented a PoC using Python, Jupyter Notebook, Panda Dataframe and Numpy to solve business problems for a sales company. Results/solutions were displayed using tables and plots along with RFM segmentation on customers based on interactions and sales revenues.",
+      "description": " ((IN PROGRESS - to be edited)) Designed and implemented a PoC using Python, Jupyter Notebook, Panda Dataframe and Numpy to segment the clients in order to design targeted marketing campaigns. Results/solutions were displayed using tables and plots along with RFM segmentation on customers based on interactions and sales revenues.",
       "git_url": "",
       "name": "Python Data Analytics"
     },
@@ -118,11 +118,9 @@
   ],
   "skills": {
     "competent": [
-      "RDBMS",
-      "Springboot",
       "Mockito/Junit",
       "REST APIs",
-      "Python",
+      "Spark \u0026 Hadoop",
       "C++/C",
       "Computer Networking"
     ],
@@ -132,17 +130,18 @@
       "VHDL",
       "ARM Assembly",
       "Machine Learning",
-      "Spark \u0026 Hadoop",
       "HTML"
     ],
     "proficient": [
-      "Java/Lambda \u0026 Stream API",
+      "Core Java",
+      "Springboot",
+      "Python",
       "Linux/Bash",
-      "SQL",
-      "Matlab",
-      "Wireshark \u0026 Simulink",
+      "RDBMS/SQL",
       "Agile/Scrum",
-      "Git"
+      "Git",
+      "Matlab",
+      "Wireshark \u0026 Simulink"
     ]
   },
   "summary": "Experienced recent Electrical Engineering graduate with a knack for creative Problem solving. Skills include delegation, organizational, time-management with prioritizing workflow for optimal throughput. Disciplined, encouraging, strong communicator and a warm extrovert with the ability to bond among introverts with ease. As an Electrical Engineering Graduate aiming to shift into Software(Data), the Jarvis training program promised exactly what was required to hone the data engineering skills through its rigourous industry standard mentoring. Keen to apply learned skills from jarvis in software and IT to improve client, users, employees and administration QOE."
