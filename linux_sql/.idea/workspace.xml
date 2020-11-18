@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="07e75343-a45c-4376-ad36-179156f9dbee" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1ehKsOm3qSwAuIz551o3MggL77e" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RunManager" selected="Shell Script.host_usage.sh">
+    <configuration name="host_info.sh" type="ShConfigurationType" temporary="true">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/scripts/host_info.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="host_usage.sh" type="ShConfigurationType" temporary="true">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/scripts/host_usage.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="psql_docker.sh" type="ShConfigurationType" temporary="true">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/scripts/psql_docker.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Shell Script.host_usage.sh" />
+        <item itemvalue="Shell Script.host_info.sh" />
+        <item itemvalue="Shell Script.psql_docker.sh" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="07e75343-a45c-4376-ad36-179156f9dbee" name="Default Changelist" comment="" />
+      <created>1594768591710</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594768591710</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="350" y="306" width="575" height="395" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594823455455">
+      <screen x="0" y="31" width="1280" height="944" />
+    </state>
+    <state x="350" y="306" width="575" height="395" key="#com.intellij.fileTypes.FileTypeChooser/0.31.1280.944@0.31.1280.944" timestamp="1594823455455" />
+    <state x="442" y="366" width="396" height="329" key="DBNavigator.ConnectionAuthenticationDialog" timestamp="1594828412273">
+      <screen x="0" y="31" width="1280" height="944" />
+    </state>
+    <state x="442" y="366" width="396" height="329" key="DBNavigator.ConnectionAuthenticationDialog/0.31.1280.944@0.31.1280.944" timestamp="1594828412273" />
+    <state x="373" y="312" key="DBNavigator.ConnectionInfoDialog" timestamp="1594852562505">
+      <screen x="0" y="31" width="1280" height="944" />
+    </state>
+    <state x="373" y="312" key="DBNavigator.ConnectionInfoDialog/0.31.1280.944@0.31.1280.944" timestamp="1594852562505" />
+    <state x="363" y="405" width="554" height="272" key="DBNavigator.IdleConnectionDialog" timestamp="1594870364936">
+      <screen x="0" y="31" width="1280" height="944" />
+    </state>
+    <state x="363" y="405" width="554" height="272" key="DBNavigator.IdleConnectionDialog/0.31.1280.944@0.31.1280.944" timestamp="1594870364936" />
+    <state x="173" y="161" width="930" height="686" key="DBNavigator.ProjectSettingsDialog" timestamp="1594852589954">
+      <screen x="0" y="31" width="1280" height="944" />
+    </state>
+    <state x="173" y="161" width="930" height="686" key="DBNavigator.ProjectSettingsDialog/0.31.1280.944@0.31.1280.944" timestamp="1594852589954" />
+    <state x="254" y="163" width="768" height="681" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1594788580796">
+      <screen x="0" y="31" width="1280" height="944" />
+    </state>
+    <state x="254" y="163" width="768" height="681" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.31.1280.944@0.31.1280.944" timestamp="1594788580796" />
+  </component>
+</project>

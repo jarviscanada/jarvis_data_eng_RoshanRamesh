@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2fd4d3dc-332c-456d-870f-5dda95943dc0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1fHeej2HAeSVgaT6u8fTDvTHpJx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration name="[]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2fd4d3dc-332c-456d-870f-5dda95943dc0" name="Default Changelist" comment="" />
+      <created>1595879542320</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595879542320</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="123" y="80" width="1030" height="847" key="#Project_Structure" timestamp="1595880603027">
+      <screen x="0" y="31" width="1280" height="944" />
+    </state>
+    <state x="123" y="80" width="1030" height="847" key="#Project_Structure/0.31.1280.944@0.31.1280.944" timestamp="1595880603027" />
+    <state x="98" y="161" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595882010638">
+      <screen x="0" y="31" width="1280" height="944" />
+    </state>
+    <state x="98" y="161" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.31.1280.944@0.31.1280.944" timestamp="1595882010638" />
+    <state x="393" y="247" width="490" height="514" key="FileChooserDialogImpl" timestamp="1595882077085">
+      <screen x="0" y="31" width="1280" height="944" />
+    </state>
+    <state x="393" y="247" width="490" height="514" key="FileChooserDialogImpl/0.31.1280.944@0.31.1280.944" timestamp="1595882077085" />
+    <state x="123" y="80" width="1030" height="847" key="SettingsEditor" timestamp="1595880577533">
+      <screen x="0" y="31" width="1280" height="944" />
+    </state>
+    <state x="123" y="80" width="1030" height="847" key="SettingsEditor/0.31.1280.944@0.31.1280.944" timestamp="1595880577533" />
+  </component>
+</project>

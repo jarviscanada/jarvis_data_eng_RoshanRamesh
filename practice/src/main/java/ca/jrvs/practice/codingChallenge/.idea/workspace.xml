@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eb7de507-7fca-4d77-96db-92e8ee97c5d1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../../../../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../../.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../../../../.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1exKeKpoPnMNJsOo1WTz7ucP07Z" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/src.zip!/" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eb7de507-7fca-4d77-96db-92e8ee97c5d1" name="Default Changelist" comment="" />
+      <created>1595257897372</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595257897372</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="123" y="80" width="1030" height="847" key="#Project_Structure" timestamp="1595257908327">
+      <screen x="0" y="31" width="1280" height="944" />
+    </state>
+    <state x="123" y="80" width="1030" height="847" key="#Project_Structure/0.31.1280.944@0.31.1280.944" timestamp="1595257908327" />
+    <state x="98" y="161" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595519461646">
+      <screen x="0" y="31" width="1280" height="944" />
+    </state>
+    <state x="98" y="161" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.31.1280.944@0.31.1280.944" timestamp="1595519461646" />
+    <state x="363" y="306" width="549" height="395" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595519703994">
+      <screen x="0" y="31" width="1280" height="944" />
+    </state>
+    <state x="363" y="306" width="549" height="395" key="#com.intellij.fileTypes.FileTypeChooser/0.31.1280.944@0.31.1280.944" timestamp="1595519703994" />
+    <state x="388" y="359" width="520" height="291" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1595520707635">
+      <screen x="0" y="31" width="1280" height="944" />
+    </state>
+    <state x="388" y="359" width="520" height="291" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.31.1280.944@0.31.1280.944" timestamp="1595520707635" />
+    <state x="395" y="405" width="482" height="199" key="DetectedRootsChooserDialog" timestamp="1595520302027">
+      <screen x="0" y="31" width="1280" height="944" />
+    </state>
+    <state x="395" y="405" width="482" height="199" key="DetectedRootsChooserDialog/0.31.1280.944@0.31.1280.944" timestamp="1595520302027" />
+    <state x="421" y="261" width="430" height="486" key="FileChooserDialogImpl" timestamp="1595520348594">
+      <screen x="0" y="31" width="1280" height="944" />
+    </state>
+    <state x="421" y="261" width="430" height="486" key="FileChooserDialogImpl/0.31.1280.944@0.31.1280.944" timestamp="1595520348594" />
+    <state x="123" y="80" width="1030" height="847" key="SettingsEditor" timestamp="1595520361022">
+      <screen x="0" y="31" width="1280" height="944" />
+    </state>
+    <state x="123" y="80" width="1030" height="847" key="SettingsEditor/0.31.1280.944@0.31.1280.944" timestamp="1595520361022" />
+    <state x="331" y="119" width="617" height="768" key="find.popup" timestamp="1595518390940">
+      <screen x="0" y="31" width="1280" height="944" />
+    </state>
+    <state x="331" y="119" width="617" height="768" key="find.popup/0.31.1280.944@0.31.1280.944" timestamp="1595518390940" />
+  </component>
+</project>
