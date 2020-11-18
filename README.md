@@ -12,7 +12,7 @@ Experienced recent Electrical Engineering graduate with a knack for creative Pro
 
 ## Jarvis Projects
 
-Project source code: [https://github.com/jarviscanada/jarvis_data_eng_demo](https://github.com/jarviscanada/jarvis_data_eng_RoshanRamesh/tree/master)
+Project source code: [https://github.com/jarviscanada/jarvis_data_eng_RoshanRamesh/tree/master](https://github.com/jarviscanada/jarvis_data_eng_RoshanRamesh/tree/master)
 
 
 **Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_RoshanRamesh/tree/master/linux_sql)]: Developed a real time cluster monitoring bash agent with bash scripts and SQL that collects and records hardware specifications and node usage information(CPU/memory). PostgreSQL database was used to store information of all nodes, contained in a docker instance for future references. Cronjob was used for automatic resource usage collection. The Linux cluster administration team's business questions such as CPU/Memory usage were answered using SQL queries in order to to be used in future resource planning.
