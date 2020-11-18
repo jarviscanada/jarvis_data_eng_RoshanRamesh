@@ -1,6 +1,6 @@
 # Roshan Ramesh . Jarvis Consulting
 
-Experienced recent Electrical Engineering graduate with a knack for creative Problem solving. Skills include delegation, organizational, time-management with prioritizing workflow for optimal throughput. Disciplined, encouraging, strong communicator and a warm extrovert with the ability to bond among introverts with ease. As an Electrical Engineering Graduate aiming to shift into Software(Data), the Jarvis training program promised exactly what was required to hone the data engineering skills through its rigourous industry standard mentoring. Keen to apply learned skills from jarvis in software and IT to improve client, users, employees and administration QOE.
+Experienced recent Electrical Engineering graduate with a knack for creative Problem-solving. Skills include delegation, organization, time-management with prioritizing workflow for optimal throughput. Disciplined, encouraging, strong communicator, and a warm extrovert with the ability to bond among introverts with ease. As an Electrical Engineering Graduate aiming to shift into Software(Data), the Jarvis training program promised exactly what was required to hone the data engineering skills through its rigorous industry-standard mentoring. Keen to apply learned skills from Jarvis in software and IT to improve clients, users, employees, and administration QoE.
 
 ## Skills
 
