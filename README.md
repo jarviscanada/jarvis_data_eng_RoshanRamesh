@@ -12,21 +12,18 @@ Experienced recent Electrical Engineering graduate with a knack for creative Pro
 
 ## Jarvis Projects
 
-Project source code: [https://github.com/jarviscanada/jarvis_data_eng_demo](https://github.com/jarviscanada/jarvis_data_eng_demo)
+Project source code: [https://github.com/jarviscanada/jarvis_data_eng_demo](https://github.com/jarviscanada/jarvis_data_eng_RoshanRamesh/tree/master)
 
 
-**Cluster Monitor** [[GitHub]
-(https://github.com/jarviscanada/jarvis_data_eng_RoshanRamesh/tree/master/linux_sql)]: Developed a real time cluster monitoring bash agent with bash scripts and SQL that collects and records hardware specifications and node usage information(CPU/memory). PostgreSQL database was used to store information of all nodes, contained in a docker instance for future references. Cronjob was used for automatic resource usage collection. The Linux cluster administration team's business questions such as CPU/Memory usage were answered using SQL queries in order to to be used in future resource planning.
+**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_RoshanRamesh/tree/master/linux_sql)]: Developed a real time cluster monitoring bash agent with bash scripts and SQL that collects and records hardware specifications and node usage information(CPU/memory). PostgreSQL database was used to store information of all nodes, contained in a docker instance for future references. Cronjob was used for automatic resource usage collection. The Linux cluster administration team's business questions such as CPU/Memory usage were answered using SQL queries in order to to be used in future resource planning.
 
-**Core Java Apps** [[GitHub]
-(https://github.com/jarviscanada/jarvis_data_eng_RoshanRamesh/tree/master/core_java)]:
+**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_RoshanRamesh/tree/master/core_java)]:
       
   - Twitter App: Implemented a Java8 based TwitterCLI application that interacts via REST API using HTTP requests. The application helps users perform CRUD operations on Twitter posts and creation of tweet with a geotag which has a JSON format output. Implementation made possible by Spring framework, MVC architecture along with Junit/Mockito testing libraries.
   - JDBC App: Developed a JDBC based application which bridges RDBMS and the Java application. Users can connect to PSQL database to perform CRUD operations using the DAO pattern. JDBC is dockerized using the PostgreSQL instance to make CRUD (Create, Read, Update, Delete) operation possible.
   - Grep App: Designed Java 8 Stream APIs with lambda expressions that uses pattern matching to search recursively through files in a directory and outputs the matched lines into a new file.
 
-**Springboot App** [[GitHub]
-(https://github.com/jarviscanada/jarvis_data_eng_RoshanRamesh/tree/master/springboot)]: Developed a three-tier REST API application using Springboot which simulates an online stock trading platform. The trading platform features a 3 layer microservice architecture, managed by maven, uses Tomcat web-servelet, IEX cloud as datasource and PSQL database to persist data. Spring DAO was used to handle data access in PSQL. Junit and Mockito were used for testing/integration. For convenient deployment, the application was dockerized through two containers i.e., one for PSQL server and one to start application.
+**Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_RoshanRamesh/tree/master/springboot)]: Developed a three-tier REST API application using Springboot which simulates an online stock trading platform. The trading platform features a 3 layer microservice architecture, managed by maven, uses Tomcat web-servelet, IEX cloud as datasource and PSQL database to persist data. Spring DAO was used to handle data access in PSQL. Junit and Mockito were used for testing/integration. For convenient deployment, the application was dockerized through two containers i.e., one for PSQL server and one to start application.
 
 **Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/hadoop)]: Not Started
 
