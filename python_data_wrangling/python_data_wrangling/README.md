@@ -4,7 +4,7 @@ London Gift Shop (LGS) is a UK-based online store that sells gift-ware. The comp
 As the LGS marketing team lacks IT capabilities and resources, they engaged with Jarvis consulting which offered software and data engineering services. This PoC project helps the LGS marketing by answering specific business questions using various technologies. The SQL file was loaded into the PSQL database which acts as data warehouse for OLAP purposes. The analytics were done on Jupyter notebook using Python. Dataframes from the Pandas library were used to manipulate data along with matplotlib from plotting.
 
 ## Project Architecture
-![my image](./assets/python.png)
+![my image](./assets/Python.png)
 
 The LGS web app consistes of a Microsoft Azure resource group. Azure's content delivery network (CDN) is used  to handle the front-end stack. The backend/API stack is handled using Azure's API management. The back end is an AKS cluster designed with a microservice architecture for processing and a SQL server for OLTP data. The LGS gets its sample data from the server whoch is then stored into the PSQL database Data analytics were carried out using Jupyter notebook.
 
