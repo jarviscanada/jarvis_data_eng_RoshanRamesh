@@ -27,11 +27,11 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_RoshanRame
 
 **Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/hadoop)]: Not Started
 
-**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master)]:  ((IN PROGRESS - to be edited)) Designed and implemented a PoC using Python, Jupyter Notebook, Panda Dataframe and Numpy to segment the clients in order to design targeted marketing campaigns. Results/solutions were displayed using tables and plots along with RFM segmentation on customers based on interactions and sales revenues.
+**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master)]: Designed and implemented a PoC using Python, Jupyter Notebook, Panda Dataframe and Numpy to segment the clients in order to design targeted marketing campaigns. Results/solutions were displayed using tables and plots along with RFM segmentation on customers based on interactions and sales revenues.
 
 **Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/spark)]: Not Started
 
-**Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/cloud_devops)]: Not Started
+**Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/cloud_devops)]: In-Progress
 
 
 ## Highlighted Projects
